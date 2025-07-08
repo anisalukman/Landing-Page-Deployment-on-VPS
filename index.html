@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Portofolio Saya</div>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Projek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Halo, Saya <span>Anisa Lukman</span></h1>
+      <p>Pengembangan Web | Analisis data | DevOps</p>
+      <a href="#projects" class="cta-btn">Projek Saya</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya adalah mahasiswa yang antusias di bidang pengembangan web dan data,
+       dengan minat mendalami Web Development (HTML, CSS, JavaScript, WordPress),
+        Analisis Data menggunakan Pandas & Jupyter Notebook,
+         serta penerapan DevOps (VPS EC2, CI/CD pipeline).
+          Aktif mengikuti bootcamp dan kursus online untuk meningkatkan kompetensi teknis. 
+          Terbiasa bekerja mandiri maupun dalam tim, 
+          serta selalu belajar teknologi terbaru untuk mendukung perkembangan karier di dunia IT.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projek Saya</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Landing Page Portofolio</h3>
+        <p>Landing page portofolio modern yang dibuat menggunakan HTML, CSS, dan JavaScript murni.
+             Projek ini menampilkan desain responsif, navigasi interaktif, dan form kontak sederhana yang dapat digunakan sebagai template pribadi.</p>
+      </div>
+      <div class="project-card">
+        <h3>Analisis Dataset Sederhana</h3>
+        <p>Menganalisis dataset sederhana menggunakan Python, Pandas, dan Jupyter Notebook.
+             Projek ini bertujuan untuk memahami pola data, membuat visualisasi sederhana, dan menghasilkan insight dasar untuk mendukung pengambilan keputusan.</p>
+      </div>
+      <div class="project-card">
+        <h3>Deployment VPS dengan CI/CD</h3>
+        <p>Mencoba proses deployment ke VPS EC2 dengan menerapkan pipeline CI/CD. 
+            Projek ini berfokus pada otomatisasi build, testing, dan deploy aplikasi ke server cloud agar pengembangan menjadi lebih efisien dan terstruktur.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Hubungi Saya</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Nama Anda" required/>
+      <input type="email" placeholder="Email Anda" required/>
+      <textarea placeholder="Pesan Anda" required></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; Anisa Lukman. Hak cipta dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
